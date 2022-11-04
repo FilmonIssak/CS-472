@@ -8,13 +8,29 @@ div {
 
 #header{
 background-color: white;
+margin: 10px;
+justify-content: space-between;
+
 }
+#spans{
+   display: flex;
+   justify-content: space-between;
+   word-spacing: 20px;
+   /* float: right; */
+   padding-left: 870px;
+   margin-bottom: 60px;
+  
+}
+
+
 #Welcome{
     text-align:center;
-    border: 3px solid rgb(11, 39, 139);
+    margin-top: 50px;
+    /* border: 3px solid rgb(11, 39, 139); */
     color: white;
     background-color: rgb(11, 39, 139);
     height: 100px;
+    padding-top: 10px;
 }
 
  div.inline-box {
@@ -31,6 +47,19 @@ background-color: white;
     width: 50%;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 30px;
+    border-right: 1px solid gray; 
+  
+}
+.inline-box-right{
+    margin-top: 30px;
+    width: 400px;
+}
+#login{
+    width: 60%;
+    height: 30px;
+    border: 1px solid lightblue;
+    color: gray;
 }
 #spans{
     float: right;
@@ -42,27 +71,34 @@ background-color: white;
 
 #footer{
     width:100%;
+    height: 20px;
     padding-left: 80%;
-    margin-top: 10%;
+    margin-top:170px;
     background-color: rgb(244, 241, 237);
-    
-    
+
 }
 
+#upper-div{
+    position: fixed;
+}
 #log-button{
     margin-top: 1%;
     color: white;
+    margin-top: 10px;
     background-color: black;
-    width: 100%;
-    height: 40px;
+    width: 61%;
+    height: 50px;
     border-radius: 10px;
+   
+
 
 
 }
 #submit-button{
     color: white;
     background-color: black;
-    width: 20%;
+    width: 30%;
+    height: 35px;
     border-radius: 10px;
 
 }
@@ -75,23 +111,26 @@ background-color: white;
 }
 
 #forget-password{
-    float: right;
+    padding-top: 100px;
+    margin-left: 28%;
+    /* margin-bottom: 50px; */
+    padding-bottom: 100px;
 }
 
 #all{
     /* padding: auto; */
   
 }
-body{
-    /* border: 1px solid red; */
-   background-color:rgb(252, 252, 252) ;
-   /* padding-bottom: 50%; */
-   /* box-sizing: border-box; */
-}
+ html,body {
+    margin: 0;
+    padding: 0;
+  }
 
 #azure{
     color: blue;
     background-color: whitesmoke;
-    width: 50%;
+    width: 62%;
     border-radius: 10px;
+    height: 40px;
+    
 }
