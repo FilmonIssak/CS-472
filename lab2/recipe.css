@@ -1,0 +1,23 @@
+h1 {
+    text-decoration: underline;
+    color:rgb(53, 52, 30);
+    text-align: center;
+    /* margin-right: auto; */
+    background-color:rgb(180, 178, 175);
+}
+h2{
+    text-decoration: underline;
+    color: rgb(138, 120, 30);
+    background-color:lightgray;
+}
+
+p{
+    background-color:rgb(160, 152, 46);
+    white-space: pre-wrap;
+}
+nav{
+    
+    text-align: right;
+
+    
+}

@@ -1,0 +1,97 @@
+div {
+    /* width: 20vw; */
+    /* height: 10vh; */
+    /* border: 1px solid black; */
+
+
+}
+
+#header{
+background-color: white;
+}
+#Welcome{
+    text-align:center;
+    border: 3px solid rgb(11, 39, 139);
+    color: white;
+    background-color: rgb(11, 39, 139);
+    height: 100px;
+}
+
+ div.inline-box {
+
+    /* width: 25vw;
+    display: inline-block;
+    border-collapse: collapse;
+    vertical-align:baseline;
+    margin: 0; */
+    
+
+} 
+#inline-box{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#spans{
+    float: right;
+}
+#tables {
+    display:inline-flex;
+    width: 100%;
+}
+
+#footer{
+    width:100%;
+    padding-left: 80%;
+    margin-top: 10%;
+    background-color: rgb(244, 241, 237);
+    
+    
+}
+
+#log-button{
+    margin-top: 1%;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+
+
+}
+#submit-button{
+    color: white;
+    background-color: black;
+    width: 20%;
+    border-radius: 10px;
+
+}
+
+#login-email{
+    width: 100%;
+}
+#password{
+    width: 100%;
+}
+
+#forget-password{
+    float: right;
+}
+
+#all{
+    /* padding: auto; */
+  
+}
+body{
+    /* border: 1px solid red; */
+   background-color:rgb(252, 252, 252) ;
+   /* padding-bottom: 50%; */
+   /* box-sizing: border-box; */
+}
+
+#azure{
+    color: blue;
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 10px;
+}
