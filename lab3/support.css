@@ -1,10 +1,4 @@
-div {
-    /* width: 20vw; */
-    /* height: 10vh; */
-    /* border: 1px solid black; */
 
-
-}
 
 #header{
 background-color: white;
@@ -33,16 +27,6 @@ justify-content: space-between;
     padding-top: 10px;
 }
 
- div.inline-box {
-
-    /* width: 25vw;
-    display: inline-block;
-    border-collapse: collapse;
-    vertical-align:baseline;
-    margin: 0; */
-    
-
-} 
 #inline-box{
     width: 50%;
     margin-left: 50px;
@@ -117,10 +101,7 @@ justify-content: space-between;
     padding-bottom: 100px;
 }
 
-#all{
-    /* padding: auto; */
-  
-}
+
  html,body {
     margin: 0;
     padding: 0;
