@@ -8,45 +8,46 @@
     <title>My LogIn</title>
     <script src="./js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lab4/doc/login/css/mybootstrap.css">
 
 
 </head>
-<div class="navbar bg-black pb-5"></div>
 
-<body>
+
+<body class="fixed-top">
     <header>
-        <nav class="navbar bg-primary ">
-            <div class="row">
-                <div class="col-sm-5">
-                    <h5>MUM Golden Dome Market::: SRM System</h5>
-                </div>
-                <div class="col-sm-1">
-                    <p>Product</p>
-                </div>
-                <div class="col-sm-1">
-                    <p>Supplier</p>
-                </div>
-                <div class="col-sm-4 align-right navbar-brand">
-
-                    <span>Hello!</span>
-                    <button class="btn btn-light">Sign Out</button>
-                </div>
+        <div class="row navbar bg-primary" >
+            <div class="col-sm-5" id="miu">
+                <a href="#" style="color: rgb(4, 0, 0);">MUM Golden Dome Market::: SRM System</a>
             </div>
-        </nav>
+            <div class="col-sm-1">
+                <a href="#" style="color: rgba(6, 3, 3, 0.898);">Product</a> 
+            </div>
+           
+            <div class="col-sm-1">
+                <a href="#" style="color: rgba(6, 3, 3, 0.898);">Supplier</a>
+            </div>
+            <div class="col-sm-4 navbar-brand" id="hello-box">
+
+                <span>Hello!</span>
+                <button class="btn btn-light ">Sign Out</button>
+            </div>
+            </div>
+
     </header>
     <main>
         <form action="" class="ms-5">
-            <div class="row">
+            <div class="row" id="con">
                 <h3>New Product Form</h3>
                 
                 <div class="col-sm-5">
                     <div class="row">
-                        <label class="form-label">Pruduct Number</label>
+                        <label class="form-label" >Pruduct Number</label>
                         <input type="text" class="form-control">
                         <label class="form-label">Name</label>
                         <input type="text" class="form-control">
                         <label class="form-label">Unit Price</label>
-                        <input type="currency" class="form-control">
+                        <input type="currency" placeholder="0.0" class="form-control">
                     </div>
                 </div>
                 <div class="col-sm-5 ms-5">
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div class="row" >
-                <div class="d-flex flex-row-reverse mb-4"> 
+                <div style="margin-left: 62%"> 
                     <button class="btn btn-outline-primary me-5 p-2">Add Product</button>
                     <button class="btn btn-outline-danger me-5 ">Cancle</button>
                     <button class="btn btn-outline-secondary me-5">Reset</button>
@@ -74,9 +75,18 @@
         </form>
     </main>
     <footer>
-        
+        <nav >
+            <a
+                href="https://validator.w3.org/nu/?doc=https://filmonissak.github.io/CS-472/">
+                <img src="/lab4/image/81ce6b8e-39b2-42bf-97af-5f8b93c9c956.jpg" alt="w3c-html-logo" style="height: 30px;">
+            </a>
+            <br>
+            <a
+                href="https://jigsaw.w3.org/css-validator/validator?uri=https://filmonissak.github.io/CS-472/">
+                <img src="/lab4/image/w3c-html5-logo.png" alt="no" width="83">
+            </a>
+        </nav>
     </footer>
 </body>
-<div class="navbar bg-black pb-5 mb-5"></div>
 
 </html>
