@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My LogIn</title>
-    <script src="./js/bootstrap.js"></script>
+    <!-- <script src="./js/bootstrap.js"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/lab4/doc/login/css/mybootstrap.css">
-
+    <script src="./js/product.js"></script>    
 
 </head>
 
@@ -38,43 +38,45 @@
 
     </header>
     <main>
-        <form action="" class="ms-5">
+        <!-- <form action="" class="ms-5"> -->
             <div class="row" id="con">
                 <h3 style="margin-top: 45px;">New Product Form</h3>
                 
                 <div class="col-sm-5">
                     <div class="row">
                         <label class="form-label" >Pruduct Number</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" id="proNo">
                         <label class="form-label">Name</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" id="name">
                         <label class="form-label">Unit Price</label>
-                        <input type="currency" placeholder="0.0" class="form-control">
+                        <input type="currency" placeholder="0.0" class="form-control" id="price">
                     </div>
                 </div>
                 <div class="col-sm-5 ms-5">
                     <div class="row">
                         <label class="form-label">Quantity in stock</label>
-                        <input type="number" placeholder="0" class="form-control">
+                        <input type="number" placeholder="0" class="form-control" id="quan">
                         <label class="form-label">Supplier:</label>
-                        <select class="form-select">
+                        <select class="form-select" id="supp">
                             <option>Select a supplier</option>
+                            <option>Select a a new </option>
+                            <option>Select a all</option>
                         </select>
                         
                         <label for="Unit Price">Date supplier</label>
-                        <input type="text" placeholder="yyyy-mm-dd" class="form-control">
+                        <input type="text" placeholder="yyyy-mm-dd" class="form-control" id="date">
                         <p class="form-text" >Enter a valid-Date</p>
                     </div>
                 </div>
             </div>
             <div class="row" >
                 <div style="margin-left: 59%"> 
-                    <button class="btn btn-outline-primary me-5 p-2">Add Product</button>
+                    <button class="btn btn-outline-primary me-5 p-2" id="addProduct">Add Product</button>
                     <button class="btn btn-outline-danger me-5 ">Cancle</button>
                     <button class="btn btn-outline-secondary me-5">Reset</button>
                 </div>
             </div>
-        </form>
+        <!-- </form> -->
     </main>
     <footer>
         <nav >
