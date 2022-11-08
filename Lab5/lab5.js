@@ -25,7 +25,7 @@ function maxOfThree(a, b, c) {
 }
 
 let q2 = maxOfThree(3, 6, 22)
-console.log("maxOfThree :" +q2)
+console.log("maxOfThree :" + q2)
 
 
 
@@ -40,7 +40,7 @@ function isVowel(x) {
     return result
 }
 x = "a"
-console.log("isVowel  :"+isVowel(x))
+console.log("isVowel  :" + isVowel(x))
 
 
 
@@ -66,7 +66,7 @@ const multiply = x => {
     return sum;
 }
 
-console.log("multiply :"+multiply([2, 3, 4, 5]))
+console.log("multiply :" + multiply([2, 3, 4, 5]))
 
 //q5
 
@@ -78,7 +78,7 @@ const reverse = str => {
     return reversed;
 }
 
-console.log("reverse :"+reverse("jag testar"))
+console.log("reverse :" + reverse("jag testar"))
 
 
 
@@ -99,7 +99,7 @@ const findLongestWord = str => {
 }
 
 let longest = ["long", "short", "filmon"];
-console.log("findLongestWord :"+findLongestWord(longest));
+console.log("findLongestWord :" + findLongestWord(longest));
 
 
 
@@ -107,8 +107,8 @@ console.log("findLongestWord :"+findLongestWord(longest));
 // q7
 
 const filterLongWords = (str, x) => {
-    let box = "";
 
+    let box = "";
     for (let i = 0; i < str.length; i++) {
         if (str[i].length > x) {
             box = str[i];
@@ -117,22 +117,22 @@ const filterLongWords = (str, x) => {
     return box;
 }
 
-console.log("filterLongWords :"+filterLongWords(["fili", "filmon", "abi"], 4));
+console.log("filterLongWords :" + filterLongWords(["fili", "filmon", "abi"], 4));
 
 
 //q8
 
 const computeSumOfSquares = x => {
-    let sum = 1;
+    let sum = 0;
     let temp;
     for (let i = 0; i < x.length; i++) {
-        temp = x[i] * 2;
+        temp = x[i] * x[i];
         sum += temp;
     }
     return sum;
 }
 
-console.log("computeSumOfSquares :"+computeSumOfSquares([1, 2, 3]))
+console.log("computeSumOfSquares :" + computeSumOfSquares([1,2,3]))
 
 
 
@@ -152,7 +152,7 @@ const printOddNumbersOnly = x => {
     return result;
 }
 
-console.log("printOddNumbersOnly : "+printOddNumbersOnly([2, 5, 4, 6, 8, 5, 3, 1]))
+console.log("printOddNumbersOnly : " + printOddNumbersOnly([2, 5, 4, 6, 8, 5, 3, 1]))
 
 
 
@@ -170,7 +170,7 @@ const computeSumOfSquaresOfEvensOnly = x => {
     return temp
 }
 
-console.log("computeSumOfSquaresOfEvensOnly :"+computeSumOfSquaresOfEvensOnly([1, 2, 3, 4, 5]))
+console.log("computeSumOfSquaresOfEvensOnly :" + computeSumOfSquaresOfEvensOnly([1, 2, 3, 4, 5]))
 
 
 
@@ -190,7 +190,7 @@ const multiplyOfReduce = (x) => {
     return result;
 }
 
-console.log("ultiplyOfReduce :"+multiplyOfReduce([1, 2, 3]));
+console.log("ultiplyOfReduce :" + multiplyOfReduce([1, 2, 3]));
 
 
 
@@ -198,37 +198,37 @@ console.log("ultiplyOfReduce :"+multiplyOfReduce([1, 2, 3]));
 const findSecondBiggest = arr => {
     let temp = 0;
     let secondLargest = 0;
-    for(let i=0; i < arr.length; i++){
-        if(arr[i]>temp){
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > temp) {
             temp = arr[i];
         }
     }
-   
+
     for (let j = 0; j < arr.length; j++) {
-        if(arr[j]>secondLargest && arr[j]<temp){
+        if (arr[j] > secondLargest && arr[j] < temp) {
             secondLargest = arr[j]
         }
-        
+
     }
 
-    
+
     return secondLargest;
 }
 
-console.log("findSecondBiggest  :"+findSecondBiggest([19,9,11,0,12]));
+console.log("findSecondBiggest  :" + findSecondBiggest([19, 9, 11, 0, 12]));
 
 
 
 //q13
-function printFibo(a,b,c){
+function printFibo(a, b, c) {
     let sum = [];
     sum.push(b);
     sum.push(c);
-    let fib =0;
+    let fib = 0;
     for (let i = 2; i < a; i++) {
-        fib = sum[sum.length-2] + sum[sum.length-1]
+        fib = sum[sum.length - 2] + sum[sum.length - 1]
         sum.push(fib);
     }
     return sum;
 }
-console.log("printFibo :"+printFibo(10,0,1))
+console.log("printFibo :" + printFibo(10, 0, 1))
