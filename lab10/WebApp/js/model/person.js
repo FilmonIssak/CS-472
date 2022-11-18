@@ -32,7 +32,7 @@ class Person{
     }
 }
 
-//  export default Person
+
 
 
 class Employee extends Person{
@@ -44,8 +44,11 @@ class Employee extends Person{
     }
     
     doJob = function(title){
-        return `Employee's ${this.name} is a ${title} who earns $${this.salary}]`
+        return `Employee's ${this.name} is a ${title} who earns $${this.salary}`
     }
 }
 
- export default Employee
+//  export default Employee
+
+
+export {Person,Employee}

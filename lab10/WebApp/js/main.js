@@ -1,5 +1,5 @@
- import Person from "./model/person.js"
- import Employee from './model/person.js'
+
+import {Person,Employee} from "./model/person.js"
 
 let persons = [
     new Person("Ana Smith", Date(1998-12-15)),
